@@ -10,13 +10,16 @@ body {
     background-color: rgb(129, 129, 255);
 }
 
-#main{
+#main {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
     display: flex;
     flex: 1;
 }
 
 #main > h1 {
-    flex: 1 0 90%;
+    flex: 1 0 80%;
     text-align: center;
 }
 
@@ -26,19 +29,34 @@ body {
 #main > nav,
 #main > aside {
     display: flex;
-    flex: 1 0 5%;
+    flex: 0 0 5%;
     align-items: center;
     justify-content: center;
 }
 
-#menu-button {
-    height: 60px;
-    width: 60px;
-}
+#menu-button,
 #github-icon {
+    display: block;
     height: 60px;
     width: 60px;
 }
+
 h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media screen and (max-width: 992px) {
+    h1 {
+        font-size: 5vw;
+    }
+
+    #menu-button,
+    #github-icon {
+        height: 5vw;
+        width: 5vw;
+    }
+}
+
+.hidden {
+    display: none;
 }
