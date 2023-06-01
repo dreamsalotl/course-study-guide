@@ -3,12 +3,13 @@ header {
 }
 
 body {
-    margin: 0px;
-    padding: 0px;
+    margin: 5px;
+    padding: 5px;
     background-color: rgb(129, 129, 255);
 }
 
 #main {
+    margin: -10px;
     position: sticky;
     top: 0;
     align-self: flex-start;
