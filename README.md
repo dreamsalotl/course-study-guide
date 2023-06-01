@@ -10,7 +10,7 @@ N/A
 
 ## Usage
 
-Each section of this Study Guide has notes that should help anyone understand the basics of web development. Included topics are HTML, CSS, Git, and JavaScript. If you open the DevTools console, `Ctrl + Shift + I (Windows)` or `Command + Option + I (MacOS)`.
+Each section of this Study Guide has notes that should help anyone understand the basics of web development. Included topics are HTML, CSS, Git, and JavaScript. If you open the DevTools console, `Ctrl + Shift + I (Windows)` or `Command + Option + I (MacOS)`, you can see what's going on behind the scenes.
 
 ## Credits
 
